@@ -17,7 +17,26 @@
           <li><a href="#recent-work">Work</a></li>
           <li><a href="https://drive.google.com/file/d/1dawLssPfnjd2qbUgSc_xDw2mmV7jzCHb/view?usp=sharing" target="blank">CV
 </a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><div>  
+<dialog id="myFirstDialog" style="width:60%;background-color:#F4FFEF;border:1px dotted black;">  
+<p>Email: seb_davies@hotmail.co.uk <br> <br>
+Mobile: +447341 457156 <br>
+</p>  
+<button id="hide">Close</button>  
+</dialog>  
+<a id="show">Contact</a>  
+</div>
+<script type="text/JavaScript">  
+(function() {    
+    var dialog = document.getElementById('myFirstDialog');    
+    document.getElementById('show').onclick = function() {    
+        dialog.show();    
+    };    
+    document.getElementById('hide').onclick = function() {    
+        dialog.close();    
+    };    
+})();   
+</script></li>
         </ul>
       </nav>
       <div class="controls">
