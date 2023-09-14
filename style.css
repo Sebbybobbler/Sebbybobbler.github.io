@@ -81,6 +81,7 @@ header .controls {
   width: 280px;
   height: 280px;
   margin-inline-end: 3rem;
+  border-radius: 120px 120px 120px 120px;
 }
 
 .bio {
